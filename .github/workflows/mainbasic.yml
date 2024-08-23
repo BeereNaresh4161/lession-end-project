@@ -3,7 +3,7 @@ run-name: Testing out GitHub Actions Event Trigger
 'on':
   push: null
    branches:
-    - main
+    - master
     - releases/**
   pull_request: null
 jobs:
