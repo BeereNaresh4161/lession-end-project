@@ -6,11 +6,8 @@ on:
  - master 
  - 'releases/**' 
  pull_request: 
-     branches:
- - master 
- - 'releases/**' 
 jobs: 
  Basic-Workflow: 
  runs-on: ubuntu-latest 
  steps: 
- - run: echo " Job is executing as part of Basic workflow"  
+ - run: echo " Job is executing as part of Basic workflow
